@@ -1,0 +1,42 @@
+.about-us__header-wrapper {
+    background-color: #f7f7f7;
+    padding-top: 56px;
+    padding-bottom: 53px;
+}
+
+.about-us__title {
+    @include heading-h2;
+}
+
+.about-us__inner-wrapper {
+    width: 1170px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.about-us__text {
+    width: 930px;
+    margin: 0 auto;
+    text-align: center;
+    @include page-text;
+}
+
+.about-us__history-title {
+    @include heading-h2;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.about-us__history-block {
+    display: flex;
+    flex-direction: column;
+    width: 470px;
+    padding-top: 55px;
+}
+
+.about-us__history-text {
+    @include page-text;
+    text-align: justify;
+}

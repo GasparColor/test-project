@@ -1,0 +1,29 @@
+
+/* font-family: "OpenSans"; */
+
+@font-face {
+	font-family: "OpenSans";
+	font-weight: 400;
+	src: local("OpenSans"), url("../fonts/OpenSans.woff2") format("woff2"), url("../fonts/OpenSans.woff") format("woff");
+	font-style: normal;
+}
+
+
+/* font-family: "OpenSans Bold"; */
+
+@font-face {
+	font-family: "OpenSans";
+	font-weight: 700;
+	src: local("OpenSansBold"), url("../fonts/OpenSansBold.woff2") format("woff2"), url("../fonts/OpenSansBold.woff") format("woff");
+	font-style: normal;
+}
+
+@font-face {
+			font-family: "MyriadProRegular";
+			src: url("../fonts/MyriadProRegular/MyriadProRegular.eot");
+			src: url("../fonts/MyriadProRegular/MyriadProRegular.eot?#iefix")format("embedded-opentype"),
+			url("../fonts/MyriadProRegular/MyriadProRegular.woff") format("woff"),
+			url("../fonts/MyriadProRegular/MyriadProRegular.ttf") format("truetype");
+			font-style: normal;
+			font-weight: normal;
+	}

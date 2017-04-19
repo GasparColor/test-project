@@ -1,0 +1,21 @@
+.social {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    margin-top: 15px;
+}
+
+.social__item {
+    list-style-type: none;
+    padding-left: 10px;
+    &:hover {
+        transform: rotate(360deg);
+        transition: transform 1s;
+    }
+    & svg g {
+        width: 20px;
+        height: 20px;
+    }
+}
