@@ -1,3 +1,32 @@
+@media #{$mobile-widths} {
+    .team__text {
+        width: 340px;
+        padding: 0 5px;
+        margin-bottom: 20px;
+    }
+    .team__items {
+        width: 370px;
+    }
+}
+
+@media #{$tablet-widths} {
+    .team__text {
+        width: 600px;
+    }
+    .team__items {
+        width: 760px;
+    }
+}
+
+@media #{$desktop-widths} {
+    .team__text {
+        width: 930px;
+    }
+    .team__items {
+        width: 1170px;
+    }
+}
+
 .team {
     padding-top: 60px;
     padding-bottom: 52px;

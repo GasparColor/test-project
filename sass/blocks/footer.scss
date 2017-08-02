@@ -1,3 +1,21 @@
+@media #{$mobile-widths} {
+    .footer__wrapper {
+        width: 320px;
+    }
+}
+
+@media #{$tablet-widths} {
+    .footer__wrapper {
+        width: 768px;
+    }
+}
+
+@media #{$desktop-widths} {
+    .footer__wrapper {
+        width: 1170px;
+    }
+}
+
 .footer__wrapper {
     width: 1170px;
     margin: 0 auto;

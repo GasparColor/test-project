@@ -1,42 +1,100 @@
+@media #{$mobile-widths} {
+	.about-us__text {
+		width: 400px;
+	}
+	.about-us__inner-wrapper {
+		flex-direction: column;
+		width: 320px;
+	}
+	.about-us__inner-wrapper img {
+		width: 320px;
+		display: flex;
+		align-self: center;
+	}
+	.about-us__text {
+		width: 340px;
+		padding: 0 5px;
+	}
+	.about-us__history-block {
+		width: 340px;
+	}
+	.about-us__history-text {
+		width: 350px;
+		padding: 0 30px;
+	}
+	.about-us__history-title {
+		text-align: center;
+	}
+}
+
+@media #{$tablet-widths} {
+	.about-us__text {
+		width: 800px;
+		padding: 0 30px;
+	}
+	.about-us__inner-wrapper {
+		flex-direction: column;
+		width: 768px;
+	}
+	.about-us__inner-wrapper img {
+		height: 600px;
+		align-self: center;
+	}
+	.about-us__history-block {
+		align-self: center;
+	}
+}
+
 .about-us__header-wrapper {
-    background-color: #f7f7f7;
-    padding-top: 56px;
-    padding-bottom: 53px;
+	background-color: #f7f7f7;
+	padding-top: 56px;
+	padding-bottom: 53px;
 }
 
 .about-us__title {
-    @include heading-h2;
+	@include heading-h2;
+}
+
+@media #{$desktop-widths} {
+	.about-us__inner-wrapper {
+		width: 1070px;
+		flex-direction: row;
+	}
 }
 
 .about-us__inner-wrapper {
-    width: 1170px;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
+	width: 1170px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
 }
 
+.about-us__inner-wrapper img {
+	width: 573px;
+	height: 600px;
+}
 
 .about-us__text {
-    width: 930px;
-    margin: 0 auto;
-    text-align: center;
-    @include page-text;
+	width: 930px;
+	margin: 0 auto;
+	text-align: center;
+	@include page-text;
 }
 
 .about-us__history-title {
-    @include heading-h2;
-    text-align: left;
-    margin-bottom: 20px;
+	@include heading-h2;
+	text-align: left;
+	margin-bottom: 20px;
 }
 
 .about-us__history-block {
-    display: flex;
-    flex-direction: column;
-    width: 470px;
-    padding-top: 55px;
+	display: flex;
+	flex-direction: column;
+	width: 470px;
+	padding-top: 55px;
 }
 
 .about-us__history-text {
-    @include page-text;
-    text-align: justify;
+	@include page-text;
+	text-align: justify;
 }
